@@ -1,18 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<name>xmlsec-mityc-sinadura</name>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.apache.commons</groupId>
 	<artifactId>xmlsec-mityc-sinadura</artifactId>
 	<packaging>jar</packaging>
-	<version>1.4.3-SNAPSHOT</version>
+	<version>1.4.3</version>
 	<url>http://www.mityc.es</url>
 	
 	
 	<scm>
-   		<connection>scm:svn:https://services.zylk.net/sinadura-repo/sinadura/xmlsec-mityc-sinadura/trunk</connection>
-   		<url>https://services.zylk.net/sinadura-repo/sinadura/xmlsec-mityc-sinadura/trunk</url>
+   		<connection>scm:svn:https://services.zylk.net/sinadura-repo/sinadura/xmlsec-mityc-sinadura/tags/xmlsec-mityc-sinadura-1.4.3</connection>
+   		<url>https://services.zylk.net/sinadura-repo/sinadura/xmlsec-mityc-sinadura/tags/xmlsec-mityc-sinadura-1.4.3</url>
 	</scm>
 	
 	<dependencies>
