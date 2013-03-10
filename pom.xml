@@ -1,0 +1,92 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<!-- no coje este pom <parent> <groupId>es.mityc.jumbo.adsi</groupId> <artifactId>components</artifactId> 
+		<version>1.0.4</version> </parent> -->
+	<name>xmlsec-mityc-sinadura</name>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.apache.commons</groupId>
+	<artifactId>xmlsec-mityc-sinadura</artifactId>
+	<packaging>jar</packaging>
+	<version>1.4.2</version>
+	<url>http://www.mityc.es</url>
+	<dependencies>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>xalan</groupId>
+			<artifactId>xalan</artifactId>
+			<version>2.7.1</version>
+			<scope>compile</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.3.1</version>
+			<type>jar</type>
+			<scope>test</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.14</version>
+			<type>jar</type>
+			<scope>test</scope>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+
+	<!-- deploy src -->
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	<licenses>
+		<license>
+			<name>Apache License 2.0</name>
+			<url>http://www.apache.org/licenses/</url>
+			<distribution>repo</distribution>
+			<comments>Apache License 2.0</comments>
+		</license>
+	</licenses>
+	<organization>
+		<name>Ministerio de Industria, Turismo y Comercio</name>
+		<url>http://www.mityc.es</url>
+	</organization>
+
+	<!-- deploy nexus zylk -->
+	<distributionManagement>
+		<repository>
+			<id>maven-nexus-zylk</id>
+			<name>Maven Nexus at Zylk</name>
+			<url>https://services.zylk.net/nexus/content/repositories/sinadura-releases/</url>
+		</repository>
+	</distributionManagement>
+
+
+</project>
