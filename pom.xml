@@ -5,14 +5,14 @@
 	<groupId>org.apache.commons</groupId>
 	<artifactId>xmlsec-mityc-sinadura</artifactId>
 	<packaging>jar</packaging>
-	<version>1.4.4</version>
+	<version>1.4.5-SNAPSHOT</version>
 	<url>http://www.mityc.es</url>
 	
 	<scm>
     	<connection>scm:git:https://github.com/zylklab/xmlsec-mityc-sinadura.git</connection>
         <developerConnection>scm:git:https://github.com/zylklab/xmlsec-mityc-sinadura.git</developerConnection>
         <url>https://github.com/zylklab/xmlsec-mityc-sinadura</url>
-        <tag>xmlsec-mityc-sinadura-1.4.4</tag>
+        <tag>develop</tag>
     </scm>
 	
 	<dependencies>
