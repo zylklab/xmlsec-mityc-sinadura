@@ -5,7 +5,7 @@
 	<groupId>org.apache.commons</groupId>
 	<artifactId>xmlsec-mityc-sinadura</artifactId>
 	<packaging>jar</packaging>
-	<version>1.4.4-SNAPSHOT</version>
+	<version>1.4.5-SNAPSHOT</version>
 	<url>http://www.mityc.es</url>
 	
 	<scm>
